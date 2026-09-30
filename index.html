@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style/style.css" link="stylesheet">
+</head>
+<body>
+    <navbar>
+      <h1>Systementor Zoo</h1>  
+      <h2>Våra nyhetsbrev</h2>  
+    </navbar>
+    <section>  
+      <h2>Att göra</h2>
+      <ol>
+        <li>Lekpark till barnen</li>
+        <li>Resturanger</li>
+        <li>Alla våra fantastiska djur</li>
+      </ol> 
+ 
+       <h1>Kontaktformulär</h1>
+
+       <div class="img-container">
+         <img class="dragon" height="350px" width="350px" src="/images/drake2-1024x683.jpg">
+         <img class="dinasour" height="350px" width="350px"src="/images/images.jpg">
+         <img class"cat" src="/images/images (1).">
+       </div>
+
+    <!-- ÄNDRA TILL DITT EMAIL -->
+    <!-- ÄNDRA TILL DITT EMAIL -->
+    <!-- ÄNDRA TILL DITT EMAIL -->
+    <!-- ÄNDRA TILL DITT EMAIL -->
+    <!-- ÄNDRA TILL DITT EMAIL -->
+    <div class="form-container">
+      <form
+        action="https://formsubmit.co/468885a99bfdcd49011ec0b1d5ff67fb"
+        method="POST"
+      >
+        <!-- FormSubmit-inställningar -->
+        <!-- Localhost med Live Server -->
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+        <input
+          type="hidden"
+          name="_next"
+          value="http://127.0.0.1:5500/thanks.html"
+        />
+
+        <!-- Om man har lagt upp sidan på Internet... -->
+        <!-- <input type="hidden" name="_next" value="https://din-domän.se/thanks.html" /> -->
+
+        <!-- Förnamn -->
+        <label for="firstName">Förnamn</label>
+        <input
+          type="text"
+          id="firstName"
+          name="Förnamn"
+          required
+          minlength="2"
+          pattern="[A-Za-zÅÄÖåäö\- ]+"
+          placeholder="Ange ditt förnamn (minst 2 bokstäver)"
+        />
+
+        <!-- Efternamn -->
+        <label for="lastName">Efternamn</label>
+        <input
+          type="text"
+          id="lastName"
+          name="Efternamn"
+          required
+          minlength="2"
+          pattern="[A-Za-zÅÄÖåäö\- ]+"
+          placeholder="Ange ditt efternamn (minst 2 bokstäver)"
+        />
+
+        <!-- E-post -->
+        <!-- Pattern kontrollerar:
+          minst ett tecken före @
+          minst ett tecken efter @
+          minst en punkt i slutet
+          Dokumentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern -->
+        <label for="email">E-post</label>
+        <input
+          type="email"
+          id="email"
+          name="E-post"
+          required
+          pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+          placeholder="namn@example.com"
+        />
+
+        <button type="submit">Skicka</button>
+      </form>
+     </div>
+     <table class="table" style="border: 1px solid black;">
+        <tr>
+           <td>Namn</td> 
+           <td>Art</td> 
+           <td>Vikt</td> 
+           <td>Länk</td> 
+        </tr>
+         <tr>
+           <td>Kurtvig</td> 
+           <td class="cat-2"><img class="dragon" height="350px" width="350px" src="/images/drake2-1024x683.jpg"></td> 
+           <td>9kg</td> 
+           <td><a href="https://en.wikipedia.org/wiki/Drake">Info   </a></td> 
+        </tr>
+         <tr>
+           <td>Anna</td> 
+           <td class="cat-2"><img class="cat" src="images/images (1).jpg">hej hej</td> 
+           <td>10kg</td> 
+           <td><a href="https://en.wikipedia.org/wiki/Drake">Info   </a></td> 
+        </tr>
+          <tr>
+           <td>Robin</td> 
+           <td class="cat-2"><img class="cat" src="images/images.jpg"></td> 
+           <td>12kg</td> 
+           <td><a href="https://en.wikipedia.org/wiki/Dinosaur">Info</a></td> 
+        </tr>
+     </table>
+    </section>
+    <footer></footer>   
+</body>
+</html>
