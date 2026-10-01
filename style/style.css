@@ -116,6 +116,10 @@ a.button:hover {
  align-items: center; 
 }
 
+.activity-list {
+ list-style-type: none; 
+}
+
 .dinasour {
  height: 90px;  
  width: 90px;
